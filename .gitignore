@@ -1,0 +1,19 @@
+# Build output
+bin/
+obj/
+publish/
+deploy/package/
+*.zip
+
+# Local state and secrets: never commit
+appsettings.Local.json
+appsettings.Production.json
+*.db
+*.db-shm
+*.db-wal
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
